@@ -15,7 +15,7 @@
 3. Open command prompt in project directory.
 4. Run `npm i` to install require packages.
 5. Create `.env` file in the project directory.
-6. Add your SQL credentials to the file
+6. Add your SQL credentials to the file <br>
 ![.env file](./images/readme.PNG)
 7. Run `mysql -u <MYSQL_USERNAME> -p` and type in your mysql password.
 8. Run `source db/schema.sql;` in MySQL.
