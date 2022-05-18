@@ -25,6 +25,7 @@ Product.init(
     stock: {
         type: DataTypes.INTEGER,
         allowNull: false,
+        defaultValue: 10,
         validate: {
             isGreaterThanOfEqualZero(value) {
                 if (parseInt(value) < 0) {
