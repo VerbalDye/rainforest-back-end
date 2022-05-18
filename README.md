@@ -28,7 +28,7 @@
 Navigate to [localhost:3001/api/products/](localhost:3001/api/products/). You should recieve a JSON response.
 
   ## Video Walkthrough
-  [Watch Here]()
+  [Watch Here](https://drive.google.com/file/d/1bZ80PVG1sARtBT1sqm2OcY1r2W5NYrnh/view)
 
   ## Questions?
   If you have any more questions for me, I can be reached from one of the links below. Thank you!
