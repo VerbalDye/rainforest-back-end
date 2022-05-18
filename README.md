@@ -19,13 +19,13 @@
 7. Type `exit` to quit MySQL CLI.
 8. For sample data, run `npm run seed`.
 9. To start the web server, run `npm start`.
-10. Navigate to `localhost:3001/api/products`, for a sample endpoint.  
+10. Navigate to [localhost:3001/api/products/](localhost:3001/api/products/), for a sample endpoint.  
 
   ## Contributing
   This project is not open to contribution.
 
   ## Tests
-Navigate to `localhost:3001/api/products/`
+Navigate to [localhost:3001/api/products/](localhost:3001/api/products/). You should recieve a JSON response.
 
   ## Video Walkthrough
   [Watch Here]()

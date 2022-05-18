@@ -80,6 +80,10 @@ router.post('/', (req, res) => {
         .then((productTagIds) => res.status(200).json(productTagIds))
         .catch((err) => {
             console.log(err);
+            if(!req.body.tagIds) {
+                res.status(400).json({ message: 'You must include an array of tag ids called `tagIds`.' });
+                return;
+            }
             res.status(400).json(err);
         });
 });
